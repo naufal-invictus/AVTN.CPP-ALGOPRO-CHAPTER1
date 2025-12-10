@@ -1,0 +1,21 @@
+﻿#include <iostream>
+using namespace std;
+
+int main() {
+	int r,t;
+	const float pi = 3.14159f; 
+	float v;
+	
+	cout <<"Masukan Jari-jari (r) : ";
+	cin >> r;
+	
+	cout <<"Masukan Tinggi (t) : ";
+	cin >> t;
+	
+	v = (pi * r * r * t )/3;
+	
+	cout <<"Hasil Volume kerucut : " << v << endl;
+	
+	return 0;
+	
+}
